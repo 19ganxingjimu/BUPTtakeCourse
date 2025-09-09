@@ -1,6 +1,9 @@
 // https://github.com/Durden-T/BUPTtakeCourse
 
-var courses = ['亲密关系心理学'];
+var courses = [
+    //'中国艺术史',
+    //'外国文学鉴赏',
+];
 //抢课时间间隔，单位为ms，抢课50ms, 捡漏300ms
 var interval = 50;
 //禁止改动
