@@ -18,7 +18,11 @@ function getCourses() {
         iDisplayStart: 0,
         iDisplayLength: 99999,
     };
-    let paths = ['/jsxsd/xsxkkc/xsxkGgxxkxk'];
+    let paths = [
+        '/jsxsd/xsxkkc/xsxkBxxk', //必修
+        '/jsxsd/xsxkkc/xsxkXxxk', //选修
+        '/jsxsd/xsxkkc/xsxkGgxxkxk', //公选
+    ];
     for (let path of paths)
         $.post(path, params, processData);
 }
