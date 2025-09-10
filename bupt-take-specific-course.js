@@ -1,9 +1,6 @@
 // https://github.com/Durden-T/BUPTtakeCourse
 
-var courses = [
-    //'中国艺术史',
-    //'外国文学鉴赏',
-];
+var courses = ['中国艺术史'，'外国文学鉴赏'，'漫谈光通信']
 //抢课时间间隔，单位为ms，抢课50ms, 捡漏300ms
 var interval = 50;
 //禁止改动
@@ -18,11 +15,7 @@ function getCourses() {
         iDisplayStart: 0,
         iDisplayLength: 99999,
     };
-    let paths = [
-        '/jsxsd/xsxkkc/xsxkBxxk', //必修
-        '/jsxsd/xsxkkc/xsxkXxxk', //选修
-        '/jsxsd/xsxkkc/xsxkGgxxkxk', //公选
-    ];
+    let paths = ['/jsxsd/xsxkkc/xsxkGgxxkxk']
     for (let path of paths)
         $.post(path, params, processData);
 }
