@@ -1,6 +1,6 @@
 // https://github.com/Durden-T/BUPTtakeCourse
 
-var courses = ['中国艺术史'，'外国文学鉴赏'，'漫谈光通信']
+var courses = ['中国艺术史'，'外国文学鉴赏'，'世界与无线通信']
 //抢课时间间隔，单位为ms，抢课50ms, 捡漏300ms
 var interval = 50;
 //禁止改动
